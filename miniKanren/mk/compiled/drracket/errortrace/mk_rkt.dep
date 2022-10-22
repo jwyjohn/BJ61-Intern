@@ -1,1 +1,0 @@
-("8.5" ta6nt ("fb56a211c6f372e5c900f29ea81cc11d8b4ffeba" . "92dcd5abbb7fa8f577d23c60068d8d7a2261b704") (collects #"errortrace" #"errortrace-key.rkt") (collects #"racket" #"main.rkt") (collects #"racket" #"runtime-config.rkt") (collects #"racket" #"trace.rkt") (ext . #"D:\\Playground\\Schoolwork_D3\\Schoolwork_D3A\\PL\\miniKanren\\mk\\mk.scm"))
