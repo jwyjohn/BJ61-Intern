@@ -1,0 +1,20 @@
+(library
+ (public_name lab2)
+ (name lab2) 
+ (modules lexer parser cmd syntax
+    fresh info
+    todo
+    term dynamics 
+    type statics
+    )
+ (libraries base))
+
+(test
+   (name test)
+   (libraries lab2 base stdio)
+   (deps (file test.stlc))
+   (modules test)
+   )
+
+(ocamlyacc parser)
+(ocamllex lexer)
